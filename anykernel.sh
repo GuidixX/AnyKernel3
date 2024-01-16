@@ -4,9 +4,9 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=uvite-ksu
+kernel.string=DragonTurbo-KSU
 kernel.compiler=AOSP clang
-kernel.made=CHRISL7
+kernel.made=GuidixX
 message.word=
 do.devicecheck=1
 do.modules=0
@@ -36,6 +36,23 @@ patch_vbmeta_flag=auto;
 
 # import functions/variables and setup patching - see for reference (DO NOT REMOVE)
 . tools/ak3-core.sh;
+
+# Print LOGO
+ui_print "  _____  _____            _____  ____  _   _ ";
+ui_print " |  __ \|  __ \     /\   / ____|/ __ \| \ | |";
+ui_print " | |  | | |__) |   /  \ | |  __| |  | |  \| |";
+ui_print " | |  | |  _  /   / /\ \| | |_ | |  | | . ` |";
+ui_print " | |__| | | \ \  / ____ \ |__| | |__| | |\  |";
+ui_print " |_____/|_|  \_\/_/    \_\_____|\____/|_| \_|";
+ui_print "     _______ _    _ _____  ____   ____       ";
+ui_print "    |__   __| |  | |  __ \|  _ \ / __ \      ";
+ui_print "       | |  | |  | | |__) | |_) | |  | |     ";
+ui_print "       | |  | |  | |  _  /|  _ <| |  | |     ";
+ui_print "       | |  | |__| | | \ \| |_) | |__| |     ";
+ui_print "       |_|   \____/|_|  \_\____/ \____/      ";
+sleep 1
+ui_print "                 Directed by:                ";
+ui_print "                   GuidixX                   ";
 
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
