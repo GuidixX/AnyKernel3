@@ -59,7 +59,7 @@ ui_print "__\  \ \/\  \ \ /  / \  \ \/ / / /                                    
 ui_print "___\__\  /\  \ \  / / \  \  / / /                                        ";
 ui_print "___/__/ /  \  \ \/ /   \  \ \/ /                                         ";
 ui_print "___\__\/    \  \  /     \  \  /                                          ";
-ui_print "_____________\__\/       \__\/                                         
+ui_print "_____________\__\/       \__\/                                           ";
 sleep 1
 ui_print "                               Directed by:                              ";
 ui_print "                                 GuidixX                                 ";
