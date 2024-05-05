@@ -46,7 +46,7 @@ ui_print "-| |__| | | \ \  / ____ \ |__| | |__| | |\  |";
 ui_print "-|_____/|_|  \_\/_/    \_\_____|\____/|_| \_|";
 sleep 1
 ui_print "-----------------Directed by:----------------";
-ui_print "-------------------GuidixX-------------------";
+ui_print "------------GuidixX-and-Knotzy07x------------";
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
 
