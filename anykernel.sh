@@ -4,9 +4,9 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=DragonTurbo
+kernel.string=ReDragon
 kernel.compiler=AOSP clang
-kernel.made=GuidixX
+kernel.made=GuidixX and Knotzy07x
 message.word=
 do.devicecheck=1
 do.modules=0
