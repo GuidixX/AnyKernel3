@@ -5,7 +5,7 @@
 # global properties
 properties() { '
 kernel.string=DragonTurbo
-kernel.compiler=AOSP clang
+kernel.compiler=Neutron clang
 kernel.made=GuidixX
 message.word=
 do.devicecheck=1
