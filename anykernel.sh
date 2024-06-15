@@ -4,8 +4,8 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=DragonTurbo
-kernel.compiler=AOSP clang
+kernel.string=LavenderReborn
+kernel.compiler=Neutron clang
 kernel.made=GuidixX
 message.word=
 do.devicecheck=1
@@ -37,19 +37,6 @@ patch_vbmeta_flag=auto;
 . tools/ak3-core.sh;
 
 # Print LOGO
-ui_print "--_____  _____            _____  ____  _   _ ";
-ui_print "-|  __ \|  __ \     /\   / ____|/ __ \| \ | |";
-ui_print "-| |  | | |__) |   /  \ | |  __| |  | |  \| |";
-ui_print "-| |  | |  _  /   / /\ \| | |_ | |  | |     |";
-ui_print "-| |__| | | \ \  / ____ \ |__| | |__| | |\  |";
-ui_print "-|_____/|_|  \_\/_/    \_\_____|\____/|_| \_|";
-ui_print "-----_______ _    _ _____  ____   ____ ------";
-ui_print "----|__   __| |  | |  __ \|  _ \ / __ \------";
-ui_print "-------| |  | |  | | |__) | |_) | |  | |-----";
-ui_print "-------| |  | |  | |  _  /|  _ <| |  | |-----";
-ui_print "-------| |  | |__| | | \ \| |_) | |__| |-----";
-ui_print "-------|_|   \____/|_|  \_\____/ \____/------";
-sleep 1
 ui_print "-----------------Directed by:----------------";
 ui_print "-------------------GuidixX-------------------";
 # boot install
