@@ -4,9 +4,9 @@
 ### AnyKernel setup
 # global properties
 properties() { '
-kernel.string=DragonTurbo
+kernel.string=TheHyperDragon
 kernel.compiler=Neutron clang
-kernel.made=GuidixX
+kernel.made=GuidixX & HALt
 message.word=
 do.devicecheck=1
 do.modules=0
@@ -38,21 +38,20 @@ patch_vbmeta_flag=auto;
 . tools/ak3-core.sh;
 
 # Print LOGO
-ui_print "--_____  _____            _____  ____  _   _ ";
-ui_print "-|  __ \|  __ \     /\   / ____|/ __ \| \ | |";
-ui_print "-| |  | | |__) |   /  \ | |  __| |  | |  \| |";
-ui_print "-| |  | |  _  /   / /\ \| | |_ | |  | |     |";
-ui_print "-| |__| | | \ \  / ____ \ |__| | |__| | |\  |";
-ui_print "-|_____/|_|  \_\/_/    \_\_____|\____/|_| \_|";
-ui_print "-----_______ _    _ _____  ____   ____ ------";
-ui_print "----|__   __| |  | |  __ \|  _ \ / __ \------";
-ui_print "-------| |  | |  | | |__) | |_) | |  | |-----";
-ui_print "-------| |  | |  | |  _  /|  _ <| |  | |-----";
-ui_print "-------| |  | |__| | | \ \| |_) | |__| |-----";
-ui_print "-------|_|   \____/|_|  \_\____/ \____/------";
+ui_print "------__  __ ----------------------------";
+ui_print "-----/ / / /_  ______  ___  _____--------";
+ui_print "----/ /_/ / / / / __ \/ _ \/ ___/--------";
+ui_print "---/ __  / /_/ / /_/ /  __/ /------------";
+ui_print "--/_/ /_/\___ /  ___/\___/_/-------------";
+ui_print "----__/____/_/---------------------------";
+ui_print "------/ __ \_________ _____ _____  ____--";
+ui_print "-----/ / / / ___/ __  / __  / __ \/ __ \-";
+ui_print "----/ /_/ / /  / /_/ / /_/ / /_/ / / / /-";
+ui_print "---/_____/_/   \___/\____ /\____/_/ /_/--";
+ui_print "--------------------/____/---------------";
 sleep 1
-ui_print "-----------------Directed by:----------------";
-ui_print "-------------------GuidixX-------------------";
+ui_print "---------------Directed by:--------------";
+ui_print "-------------GuidixX--&--HALt------------";
 # boot install
 dump_boot; # use split_boot to skip ramdisk unpack, e.g. for devices with init_boot ramdisk
 
