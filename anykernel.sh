@@ -15,7 +15,7 @@ do.cleanup=1
 do.cleanuponabort=0
 device.name1=spes
 device.name2=spesn
-supported.versions=11.0-14.0
+supported.versions=11.0-15.0
 supported.patchlevels=
 supported.vendorpatchlevels=
 '; } # end properties
